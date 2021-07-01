@@ -159,6 +159,7 @@ extension CurrenciesListViewController: UIPickerViewDataSource, UIPickerViewDele
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         currienciesListViewModel?.selected = (currienciesListViewModel?.pickerDataSource[row])!
+        self.currienciesListViewModel?.spinnerAndLoad()
     }
     
 }
