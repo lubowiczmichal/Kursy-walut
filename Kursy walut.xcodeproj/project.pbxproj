@@ -8,24 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		90008FA7268C58A00001E3BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90008FA6268C58A00001E3BD /* AppDelegate.swift */; };
-		90008FA9268C58A00001E3BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90008FA8268C58A00001E3BD /* SceneDelegate.swift */; };
-		90008FAB268C58A00001E3BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90008FAA268C58A00001E3BD /* ViewController.swift */; };
-		90008FAE268C58A00001E3BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90008FAC268C58A00001E3BD /* Main.storyboard */; };
 		90008FB1268C58A10001E3BD /* Kursy_walut.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90008FAF268C58A10001E3BD /* Kursy_walut.xcdatamodeld */; };
 		90008FB3268C58F70001E3BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90008FB2268C58F70001E3BD /* Assets.xcassets */; };
 		90008FB6268C58F70001E3BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90008FB4268C58F70001E3BD /* LaunchScreen.storyboard */; };
+		90008FC1268C5B470001E3BD /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90008FC0268C5B470001E3BD /* CurrencyModel.swift */; };
+		90008FC8268C94370001E3BD /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90008FC7268C94370001E3BD /* CustomTableViewCell.swift */; };
+		90008FCB268CDB2C0001E3BD /* CurrencyDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90008FCA268CDB2C0001E3BD /* CurrencyDetailsViewController.swift */; };
+		902C9D45268DDE9F0045A46D /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902C9D44268DDE9E0045A46D /* Api.swift */; };
+		90961F80268D1E6C00A9FACC /* CurrenciesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90961F7F268D1E6C00A9FACC /* CurrenciesListViewModel.swift */; };
+		90961F84268D1EA000A9FACC /* CurrencyDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90961F83268D1EA000A9FACC /* CurrencyDetailsViewModel.swift */; };
+		90961F8A268D1F2B00A9FACC /* CurrenciesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90961F89268D1F2B00A9FACC /* CurrenciesListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		90008FA3268C589F0001E3BD /* Kursy walut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kursy walut.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90008FA6268C58A00001E3BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		90008FA8268C58A00001E3BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		90008FAA268C58A00001E3BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		90008FAD268C58A00001E3BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90008FB0268C58A10001E3BD /* Kursy_walut.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kursy_walut.xcdatamodel; sourceTree = "<group>"; };
 		90008FB2268C58F70001E3BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90008FB5268C58F70001E3BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90008FB7268C58F80001E3BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90008FC0268C5B470001E3BD /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
+		90008FC7268C94370001E3BD /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		90008FCA268CDB2C0001E3BD /* CurrencyDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyDetailsViewController.swift; sourceTree = "<group>"; };
+		902C9D44268DDE9E0045A46D /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		90961F7F268D1E6C00A9FACC /* CurrenciesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesListViewModel.swift; sourceTree = "<group>"; };
+		90961F83268D1EA000A9FACC /* CurrencyDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyDetailsViewModel.swift; sourceTree = "<group>"; };
+		90961F89268D1F2B00A9FACC /* CurrenciesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +66,60 @@
 		90008FA5268C589F0001E3BD /* Kursy walut */ = {
 			isa = PBXGroup;
 			children = (
+				902C9D49268DDFF90045A46D /* Api */,
+				902C9D3B268DCBAA0045A46D /* Model */,
+				902C9D3E268DCBD30045A46D /* View */,
+				902C9D3C268DCBB40045A46D /* ViewModel */,
+				902C9D40268DCBE50045A46D /* Cell */,
 				90008FA6268C58A00001E3BD /* AppDelegate.swift */,
-				90008FA8268C58A00001E3BD /* SceneDelegate.swift */,
-				90008FAA268C58A00001E3BD /* ViewController.swift */,
-				90008FAC268C58A00001E3BD /* Main.storyboard */,
 				90008FB2268C58F70001E3BD /* Assets.xcassets */,
 				90008FB4268C58F70001E3BD /* LaunchScreen.storyboard */,
 				90008FB7268C58F80001E3BD /* Info.plist */,
 				90008FAF268C58A10001E3BD /* Kursy_walut.xcdatamodeld */,
 			);
 			path = "Kursy walut";
+			sourceTree = "<group>";
+		};
+		902C9D3B268DCBAA0045A46D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				90008FC0268C5B470001E3BD /* CurrencyModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		902C9D3C268DCBB40045A46D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				90961F83268D1EA000A9FACC /* CurrencyDetailsViewModel.swift */,
+				90961F7F268D1E6C00A9FACC /* CurrenciesListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		902C9D3E268DCBD30045A46D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				90008FCA268CDB2C0001E3BD /* CurrencyDetailsViewController.swift */,
+				90961F89268D1F2B00A9FACC /* CurrenciesListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		902C9D40268DCBE50045A46D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				90008FC7268C94370001E3BD /* CustomTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		902C9D49268DDFF90045A46D /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				902C9D44268DDE9E0045A46D /* Api.swift */,
+			);
+			path = Api;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +181,6 @@
 			files = (
 				90008FB6268C58F70001E3BD /* LaunchScreen.storyboard in Resources */,
 				90008FB3268C58F70001E3BD /* Assets.xcassets in Resources */,
-				90008FAE268C58A00001E3BD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,24 +191,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90008FAB268C58A00001E3BD /* ViewController.swift in Sources */,
+				902C9D45268DDE9F0045A46D /* Api.swift in Sources */,
+				90008FCB268CDB2C0001E3BD /* CurrencyDetailsViewController.swift in Sources */,
+				90008FC1268C5B470001E3BD /* CurrencyModel.swift in Sources */,
+				90961F8A268D1F2B00A9FACC /* CurrenciesListViewController.swift in Sources */,
+				90008FC8268C94370001E3BD /* CustomTableViewCell.swift in Sources */,
+				90961F80268D1E6C00A9FACC /* CurrenciesListViewModel.swift in Sources */,
+				90961F84268D1EA000A9FACC /* CurrencyDetailsViewModel.swift in Sources */,
 				90008FA7268C58A00001E3BD /* AppDelegate.swift in Sources */,
 				90008FB1268C58A10001E3BD /* Kursy_walut.xcdatamodeld in Sources */,
-				90008FA9268C58A00001E3BD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		90008FAC268C58A00001E3BD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				90008FAD268C58A00001E3BD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		90008FB4268C58F70001E3BD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -293,6 +341,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9WUZ33A339;
 				INFOPLIST_FILE = "Kursy walut/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +349,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.michal.Kursy-walut";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,6 +361,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9WUZ33A339;
 				INFOPLIST_FILE = "Kursy walut/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,7 +369,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.michal.Kursy-walut";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
